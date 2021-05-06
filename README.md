@@ -55,8 +55,9 @@ $ python inference.py
 ### 최고 결과
 ```console
 $ python train.py --model DeepLabV3Plus_dpn92 --augmentation CustomAugmentation --loss LabelSmoothingLoss
-& python inference_TTA_average.py --model DeepLabV3Plus_dpn92 --type mIoU
+$ python inference_TTA_average.py --model DeepLabV3Plus_dpn92 --type mIoU
 ```
 
 LB: 0.6362
+
 팀원들과 ensamble: 0.6455
